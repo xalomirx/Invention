@@ -1,0 +1,155 @@
+.footer {
+    color: #fff;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer__top {
+    padding: 40px 0 30px 0;
+    background-color: #404041;
+    color: #e1e1e1;
+}
+
+.footer__photostream-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer__photostream-item {
+    display: inline-block;
+}
+
+.footer__photostream-item img {
+    width: 88px;
+    height: 70px;
+    margin: 0 5px 9px 0;
+    background-color: #fff;
+}
+
+.footer__photostream-item .footer__photostream-img--no-margin {
+    margin-right: 0;
+}
+
+.subscribe-form__email {
+    width: 53%;
+    margin-right: 2px;
+    padding: 12px;
+    background-color: #454546;
+    border: none;
+}
+
+.subscribe-form__btn {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 2px;
+    background-color: #e7402f;
+}
+
+.subscribe-form__btn:hover {
+    background-color: #454546;
+}
+
+.footer__bot {
+    padding: 22px 0;
+    background-color: #383838;
+}
+
+.footer__social {
+    float: right;
+    text-align: right;
+}
+
+.footer__social a {
+    color: #d7d7d7;
+}
+
+.footer__social a:hover {
+    color: #fff;
+}
+
+.footer__social .fa {
+    margin-right: 20px;
+}
+
+.footer__social .fa-rss {
+    margin-right: 10px;
+}
+
+@media (max-width: 998px) {
+
+    .footer__photostream-item img {
+        width: 66px;
+        height: 55px;
+        margin: 0 2px 5px 0;
+    }
+
+    .subscribe-form__email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-form__btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer__tweets,
+    .footer__photostream {
+        margin-bottom: 20px;
+    }
+
+    .footer__photostream-list {
+        padding-left: 25px;
+    }
+
+    .footer__photostream-item img {
+        width: 100px;
+        height: 65px;
+        margin: 0 4px 8px 0;
+    }
+
+    .subscribe-form__email {
+        width: 60%;
+    }
+
+    .subscribe-form__btn {
+        width: 25%;
+    }
+
+    .footer__copyright {
+        margin-bottom: 12px;
+    }
+
+    .footer__copyright,
+    .footer__social {
+        text-align: center;
+    }
+}
+
+@media (max-width: 490px) {
+    .footer__photostream-list {
+        padding-left: 0;
+    }
+
+    .footer__photostream-item img {
+        width: 80px;
+        height: 65px;
+        margin: 0 2px 4px 0;
+    }
+
+    .subscribe-form__email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-form__btn {
+        width: 100%;
+    }
+}
+

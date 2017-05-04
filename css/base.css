@@ -1,0 +1,140 @@
+/*Содержание
+==================================================
+    1)Fonts
+    2)Font-size
+    3)Typography
+    4)Links
+*/
+
+/* Fonts
+==================================================*/
+    body {
+        font-family: 'RobotoRegular', Arial, sans-serif;
+    }
+
+    .main-content p, .main-navigation ul li, .promo-slider__item h2, .promo-slider__item a, .services__item-header,
+    .footer__tweets-item, .footer_subscribe-text, .skills__meter-title,
+    .testimonials-slider__item-author a, .our-team__item-name,
+    .post-item__btn, .first-tabs__tab-item, .first-tabs__post a, .popular-tags__item, .message-form__item label,
+    .contact-info__item, .reasons__item a, .purchase__btn, .purchase__title {
+        font-family: 'RobotoMedium', Arial, sans-serif;
+    }
+
+    .main-navigation__item p, footer h3, .message-form input  {
+        font-family: 'RobotoCondensed', Arial, sans-serif;
+    }
+
+    .main-content h3, .footer__copyright-text {
+        font-family: 'RobotoBold', Arial, sans-serif;
+    }
+
+    .page-title h1 {
+        font-family: 'RobotoLight', Arial, sans-serif;
+    }
+
+
+/* Font-size
+==================================================*/
+
+    .main-header-top a {
+        font-size: 12px;
+    }
+
+    .footer__copyright-text, .first-tabs__post a {
+        font-size: 13px;
+    }
+
+    .post-item__btn, .message-form input {
+        font-size: 15px;
+    }
+
+    .main-navigation__list-item, .testimonials-slider__item-author a,
+    .first-tabs__tab-item, .purchase__text {
+        font-size: 16px;
+    }
+
+    .promo-slider__item-text, .promo-slider__item a,
+    .message-form__item label, .purchase__btn {
+        font-size: 18px;
+    }
+
+    .our-team__item-name, .services-style-1 .services__item-header {
+        font-size: 21px;
+    }
+
+    .footer h3, .purchase__title {
+        font-size: 23px;
+    }
+
+    .services-style-2 .services__item-header {
+        font-size: 25px;
+    }
+
+    .main-content h3 {
+        font-size: 26px;
+    }
+
+    .promo-slider__item-header {
+        font-size: 27px;
+    }
+
+/* Typography
+==================================================*/
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+    }
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+        font-weight: inherit;
+    }
+    h1 {
+        font-size: 46px;
+        line-height: 50px;
+        margin:0 0 14px 0;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin:0 0 10px 0;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 34px;
+        margin:0 0 8px 0;
+    }
+    h4 {
+        font-size: 21px;
+        line-height: 30px;
+        margin:0 0 4px 0;
+    }
+    h5 {
+        font-size: 17px;
+        line-height: 24px;
+        margin: 0;
+    }
+    h6 {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0;
+    }
+
+    em {
+        font-style: italic;
+    }
+    strong {
+        font-weight: bold;
+    }
+    small {
+        font-size: 80%;
+    }
+
+/* Links
+==================================================*/
+
+a {
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}

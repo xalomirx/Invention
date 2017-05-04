@@ -1,0 +1,114 @@
+/* Импортируем основные файлы
+================================================== */
+
+@import url("font.css");                                 /* Шрифты */
+@import url("base.css");                                 /* Basic Styles */
+
+
+/* Импортируем стили отдельных частей
+================================================ */
+
+@import url("header.css");
+@import url("footer.css");
+
+/* Стили страниц
+============================================== */
+
+@import url("index.css");
+@import url("about_us.css");
+@import url("blog.css");
+@import url("contact.css");
+@import url("portfolio.css");
+@import url("services.css");
+
+/* CSS
+================================================== */
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content h3 {
+    margin-bottom: 55px;
+    color: #4b4c4d;
+}
+
+.page-title+.main-content,
+.google-maps+.main-content {
+    padding-top: 45px;
+}
+
+.main-content__section-border {
+    margin: 0 0 55px 0;
+    border: 0;
+    border-top: 1px solid #f2f2f2;
+}
+
+/* Page-Title
+================================================== */
+.page-title {
+    padding: 43px 0;
+    background-color: #e7402f;
+}
+
+.page-title h1 {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+/* Slick-slider arrow customize
+============================================== */
+
+.recent-work-slider__item-list .slick-arrow:before,
+.recent-blog-slider__item-list .slick-arrow:before,
+.featured-clients-slider__item-list .slick-arrow:before,
+.testimonials-slider__item-list .slick-arrow:before {
+    color: #0f0f0f;
+    font-size: 24px;
+}
+
+.recent-work-slider__item-list .slick-prev,
+.recent-blog-slider__item-list .slick-prev,
+.featured-clients-slider__item-list .slick-prev,
+.testimonials-slider__item-list .slick-prev {
+    right: 40px;
+    top: -57px;
+}
+
+.recent-work-slider__item-list .slick-next,
+.recent-blog-slider__item-list .slick-next,
+.featured-clients-slider__item-list .slick-next,
+.testimonials-slider__item-list .slick-next {
+    right: 15px;
+    top: -57px;
+}
+
+.testimonials-slider__item-list .slick-prev,
+.testimonials-slider__item-list .slick-next {
+    top: -50px;
+}
+
+@media (max-width: 490px) {
+
+    .recent-work-slider__item-list .slick-prev,
+    .recent-blog-slider__item-list .slick-prev,
+    .featured-clients-slider__item-list .slick-prev,
+    .testimonials-slider__item-list .slick-prev {
+        right: 25px;
+    }
+
+    .recent-work-slider__item-list .slick-next,
+    .recent-blog-slider__item-list .slick-next,
+    .featured-clients-slider__item-list .slick-next,
+    .testimonials-slider__item-list .slick-next {
+        right: 0px;
+    }
+}

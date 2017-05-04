@@ -1,0 +1,195 @@
+/* Main-Content
+================================================== */
+
+.who-we-are__header, .skills__title, .believes__title,
+.testimonials__title, .our-team__title {
+    margin-bottom: 30px;
+    color: #4b4c4d;
+}
+
+.who-we-are__text, .believes__item-text, .testimonials-slider__item-text,
+.our-team__item-text {
+    color: #5c5d5e;
+}
+
+/* Main-Content>Who We Are?
+============================================ */
+
+.who-we-are__text {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main-Content>Skills
+============================================ */
+.skills {
+    margin-bottom: 70px;
+}
+
+.skills__meter {
+    position: relative;
+    margin-bottom: 20px;
+    height: 34px;
+    border-radius: 2px;
+    background-color: #f6f6f6;
+}
+
+.skills__meter-content {
+    height: 34px;
+    border-radius: 2px;
+    background-color: #e7402f;
+}
+
+.skills__meter-content[data-percentage] {
+    text-indent: -9999px;
+}
+
+.skills__meter-title {
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    color: #fff;
+}
+
+/* Main-Content>Believes
+============================================ */
+.believes {
+    margin-bottom: 70px;
+}
+
+.believes__item-title,
+.believes__item-text {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.ui-state-active {
+    border-bottom: 0!Important;
+}
+
+.believes__item-title {
+    padding: 10px 0;
+}
+
+.believes__item-title a {
+    padding-left: 20px;
+    color: #4b4c4d;
+}
+
+.ui-icon {
+    font-size: 1.3em;
+    font-family: FontAwesome;
+    font-style: normal;
+    cursor: pointer;
+    color: #9f9f9f;
+}
+
+.fa-minus-square {
+    color: #e7402f;
+}
+
+.believes__item-text {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+/* Main-Content>Testimonials Slider
+============================================ */
+.testimonials-slider__item-text {
+    margin: 0;
+    padding: 25px 18px 35px 20px;
+    background-color: #f6f6f6;
+    border-radius: 2px;
+}
+
+.testimonials-slider__comics-arr {
+    margin-left: 35px;
+    width: 26px;
+    height: 26px;
+    background-image: url("../images/icons/testimonials-arrow.png");
+}
+
+.testimonials-slider__item-author {
+    margin-left: 80px;
+    color: #5c5d5e;
+}
+
+.testimonials-slider__item-author a {
+    color: #e7402f;
+}
+
+/* Main-Content>Our Team
+============================================ */
+.our-team {
+    margin-bottom: 25px;
+}
+
+.our-team__item {
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    padding: 0 10px 0 0;
+
+}
+
+.our-team__item:nth-child(3n) {
+    padding-right: 0;
+}
+
+.our-team__item img {
+    width: 98%;
+    height: auto;
+}
+
+.our-team__item-name {
+    float: left;
+    margin: 20px 0 5px 0;
+}
+
+.our-team__item-job {
+    display: inline-block;
+    margin: 25px 0 0 5px;
+    font-style: italic;
+    color: #e7402f;
+}
+
+.our-team__item-text {
+    width: 90%;
+}
+
+.our-team__social-links a {
+    margin-right: 5px;
+    color: #9f9f9f;
+}
+
+.our-team__social-links a:hover {
+    color: #e7402f;
+}
+
+@media (max-width: 768px) {
+
+    .who-we-are {
+        margin-bottom: 35px;
+    }
+
+    .believes {
+        margin-bottom: 35px;
+    }
+
+    .testimonials {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 490px) {
+    .page-title h1 {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .who-we-are__header,
+    .skills__title,
+    .believes__title,
+    .testimonials__title,
+    .our-team__title {
+        font-size: 23px;
+    }
+}

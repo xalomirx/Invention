@@ -1,0 +1,189 @@
+/* Header-Top
+================================================== */
+
+.main-header-top {
+    padding: 16px 0;
+    background-color: #4b4c4d;
+}
+
+.main-header-top a {
+    color: #d7d7d7;
+}
+
+.main-header-top a:hover {
+    color: #fff;
+}
+
+.main-header-top__contacts .fa {
+    margin-right: 10px;
+}
+
+.main-header-top__contacts-phone {
+    margin-right: 20px;
+}
+
+.main-header-top__social {
+    text-align: right;
+}
+
+.main-header-top__social .fa {
+    margin-right: 20px;
+}
+
+.main-header-top__social .fa-rss {
+    margin-right: 10px;
+}
+
+/* Header Bot
+================================================== */
+
+.main-header-bot__logo {
+    margin: 35px 0;
+}
+
+.main-header-bot__logo img {
+    width: 171px;
+    height: 33px;
+}
+
+.main-navigation__show-btn,
+.main-header-bot__down-btn {
+    display: none;
+}
+
+.main-navigation__list {
+    float: right;
+    margin: -4px 0 0 0;
+}
+
+.main-navigation__list-item {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.main-navigation__list-item a {
+    padding: 48px 15px 42px 15px;
+    color: #4b4c4d;
+}
+
+.main-navigation__list-item a:hover,
+.main-navigation__list-item--active a {
+    background-color: #f9f9f9;
+    border-top: 4px solid #e7402f;
+}
+
+@media (max-width: 998px) {
+
+    .main-navigation {
+        position: relative;
+    }
+
+    .main-navigation__show-btn {
+        display: block;
+        float: right;
+        width: 32px;
+        height: 29px;
+        margin-top: 42px;
+        background-image: url(../images/burger-menu.png);
+    }
+
+    .main-navigation__list {
+        display: none;
+        position: absolute;
+        top: 85px;
+        right: 15px;
+        min-width: 80%;
+        padding: 0;
+        z-index: 10;
+    }
+
+    .main-navigation__list--active {
+        display: block;
+    }
+
+    .main-navigation__list-item {
+        display: block;
+        width: 100%;
+        text-transform: none;
+    }
+
+    .main-navigation__list-item a {
+        display: block;
+        padding: 13px 10px;
+        text-align: left;
+        color: #d7d7d7;
+        background-color: #404041;
+        border-bottom: 1px solid #666667;
+    }
+
+    .main-navigation__list-item a:hover,
+    .main-navigation__list-item--active a {
+        background-color: #383838;
+        border-top: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-header-top {
+        display: none;
+    }
+
+    .main-header-top--active {
+        display: block;
+    }
+
+    .main-header-top__contacts {
+        margin-bottom: 7px;
+    }
+
+    .main-header-top__contacts,
+    .main-header-top__social {
+        text-align: center;
+    }
+
+    .main-header-bot__down-btn {
+        display: block;
+        margin: 0 auto;
+        width: 30px;
+        height: 21px;
+        background-image: url(../images/down-btn.png);
+    }
+
+    .main-navigation__list {
+        display: none;
+        top: 83px;
+        right: 15px;
+        min-width: 420px;
+        z-index: 10;
+    }
+
+    .main-navigation__list-item a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 490px) {
+    .main-header-top__contacts-phone,
+    .main-header-top__contacts-email {
+        margin: 0 0 10px 0;
+    }
+
+    .main-header-bot__logo,
+    .main-navigation {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-navigation__show-btn {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .main-navigation__list {
+        display: none;
+        top: 50px;
+        width: 100%;
+        min-width: 260px;
+    }
+}

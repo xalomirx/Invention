@@ -1,0 +1,38 @@
+.recent-work {
+    margin-bottom: 30px;
+}
+
+.recent-work__header {
+    margin-bottom: 35px;
+    padding-left: 15px;
+}
+
+.recent-work-slider__item {
+    position: relative;
+    padding: 0 15px;
+}
+
+.recent-work-slider__item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.recent-work-slider__description {
+    display: none;
+    position: absolute;
+    padding: 10px 0 0 10px;
+    top: 0;
+    left: 15px;
+    width: 91%;
+    height: 88%;
+    background-color: rgba(231,64,47,.8);
+    color: #fff;
+    z-index: 10;
+}
+
+.recent-work-slider__description--active {
+    display: block;
+}
+
+
+

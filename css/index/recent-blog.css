@@ -1,0 +1,26 @@
+.recent-blog {
+    margin-bottom: 30px;
+}
+
+.recent-blog__header {
+    margin-bottom: 35px;
+    padding-left: 15px;
+}
+
+.recent-blog-slider__item {
+    padding: 0 15px;
+}
+
+.recent-blog-slider__header,
+.recent-blog-slider__text {
+    color: #000;
+}
+
+.recent-blog-slider__item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.recent-blog-slider__item span {
+    color: #929292;
+}

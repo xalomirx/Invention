@@ -1,0 +1,16 @@
+.featured-clients {
+    margin-bottom: 30px;
+}
+
+.featured-clients__header {
+    margin-bottom: 35px;
+    padding-left: 15px;
+}
+
+.featured-clients-slider__item {
+    padding: 0 15px;
+}
+
+.featured-clients-slider__item img {
+    width: 100%;
+}
